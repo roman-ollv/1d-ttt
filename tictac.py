@@ -16,11 +16,7 @@ def evaluate(board):
     else:
         print ("The game is not finished")  
         return "-"      
-
-#def move(board, mark, position):
-#    board = board[:position- 1] + mark + board[position:]
-#    return board
-
+    
 def player_move(board):
     while True:
         player_position = int(input("Choose your position in range 1-20 : "))
@@ -63,9 +59,3 @@ def game():
             break
              
 game()
-
-#File "C:\Users\roman\Desktop\test.py", line 80, in <module>
-#   game()
-#  File "C:\Users\roman\Desktop\test.py", line 55, in game
-#    if "xxx" in board:
-#TypeError: argument of type 'NoneType' is not iterable
